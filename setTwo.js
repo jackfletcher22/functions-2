@@ -156,7 +156,7 @@ const each = (names, cb) => arr.forEach((el, i) => cb(el,i))
 
 // CODE HERE
 
-
+each(names, (item,index) =>`the item at index ${index} is ${item}`)
 
 
 
